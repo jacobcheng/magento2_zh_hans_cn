@@ -1,7 +1,7 @@
 {
-  "name": "benheart/magento2_zh_hans_cn",
+  "name": "zouhongzhao/magento2_zh_hans_cn",
   "description": "Chinese language package for Magento 2",
-  "homepage": "https://github.com/benheart/magento2_zh_hans_cn",
+  "homepage": "https://github.com/zouhongzhao/magento2_zh_hans_cn",
   "require": {
     "magento/framework": "*"
   },
@@ -12,9 +12,9 @@
   ],
   "authors": [
     {
-      "name": "Ben Hu",
-      "email": "benheart.hu@gmail.com",
-      "homepage": "https://github.com/benheart",
+      "name": "Hongzhao zou",
+      "email": "zouhongzhao@gmail.com",
+      "homepage": "https://github.com/zouhongzhao",
       "role": "Leader"
     },
     {
