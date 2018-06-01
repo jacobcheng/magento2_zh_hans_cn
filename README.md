@@ -9,7 +9,7 @@ composer require benheart/magento2_zh_hans_cn:dev-master
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
 **手动安装**
-- [下载 Magento2 中文包](https://github.com/benheart/magento2_zh_hans_cn/archive/master.zip)
+- [下载 Magento2 中文包](https://github.com/zouhongzhao/magento2_zh_hans_cn/archive/master.zip)
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/benheart/magento2_zh_hans_cn
 - 在Magento2根目录执行命令：
 ```
