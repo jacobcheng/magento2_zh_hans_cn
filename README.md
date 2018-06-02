@@ -5,7 +5,7 @@
 **Composer安装**
 ```
 cd <magento2 path>
-composer require benheart/magento2_zh_hans_cn:dev-master
+composer require zouhongzhao/magento2_zh_hans_cn:dev-master
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
 **手动安装**
@@ -48,7 +48,7 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 ### 卸载语言包
 ```
 cd <magento2 path>
-composer remove benheart/magento2_zh_hans_cn:dev-master
+composer remove zouhongzhao/magento2_zh_hans_cn:dev-master
 ```
 或者
 ```
