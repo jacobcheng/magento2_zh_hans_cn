@@ -5,7 +5,7 @@
 **Composer安装**
 ```
 cd <magento2 path>
-composer require benheart/magento2_zh_hans_cn:dev-master
+composer require zouhongzhao/magento2_zh_hans_cn:dev-master
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
 **手动安装**
@@ -13,6 +13,12 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/benheart/magento2_zh_hans_cn
 - 在Magento2根目录执行命令：
 ```
+=======
+- 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
+- 在Magento2根目录执行命令：
+```
+php bin/magento i18n:pack -m replace <magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN/zh_Hans_CN.csv -d zh_Hans_CN
+>>>>>>> b03588129d4280fc8cd9540404ba4c7a7f388583
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
 - 登录Magento2管理后台，选择中文语言包：Stores -> Configuration -> General > General -> Locale options -> Chinese (China)
@@ -47,7 +53,11 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 ### 卸载语言包
 ```
 cd <magento2 path>
-composer remove benheart/magento2_zh_hans_cn:dev-master
+composer remove zouhongzhao/magento2_zh_hans_cn:dev-master
+```
+或者
+```
+php bin/magento i18n:uninstall zh_Hans_CN
 ```
 
 ### 注意事项
