@@ -16,11 +16,10 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 =======
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
 - 在Magento2根目录执行命令：
-```
 php bin/magento i18n:pack -m replace <magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN/zh_Hans_CN.csv -d zh_Hans_CN
->>>>>>> b03588129d4280fc8cd9540404ba4c7a7f388583
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
 ```
+
 - 登录Magento2管理后台，选择中文语言包：Stores -> Configuration -> General > General -> Locale options -> Chinese (China)
 ![后台总览](http://i.imgur.com/1zS25hH.png)
 
