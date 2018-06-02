@@ -3866,7 +3866,7 @@ Save,保存,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.",请输入您的电子邮件地址来接收密码重置链接。,module,Magento_Customer
 "Reset My Password",重置我的密码,module,Magento_Customer
 "Registered Customers",客户加入日期,module,Magento_Customer
-"If you have an account, sign in with your email address.",如果你有一个帐户，使用您的电子邮件地址登录。,module,Magento_Customer
+"If you have an account, sign in with your email address.",如果您已有账户，使用您的电子邮件地址登录。,module,Magento_Customer
 Password,密码,module,Magento_Customer
 "Forgot Your Password?",您忘记密码了吗?,module,Magento_Customer
 "Subscription option",订阅选项,module,Magento_Customer
@@ -3878,8 +3878,8 @@ Password,密码,module,Magento_Customer
 "Create an Account",创建帐户,module,Magento_Customer
 "Set a New Password",设置新的密码,module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","你已退出，在 5 秒钟后将转到我们的主页。",module,Magento_Customer
-"New Customers",请在该字段中输入大于或等于1的数字,module,Magento_Customer
-"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","创建帐户有很多好处: 更快地查阅，保持多个地址，跟踪订单和更多。",module,Magento_Customer
+"New Customers",新客户,module,Magento_Customer
+"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","创建帐户有很多好处: 支付更便捷，保存多个地址，跟踪订单等等。",module,Magento_Customer
 Company,地址,module,Magento_Customer
 Fax,传真,module,Magento_Customer
 Gender,性别,module,Magento_Customer
@@ -4291,7 +4291,7 @@ Active,活动,module,Magento_CustomerSegment
 Inactive,未激活,module,Magento_CustomerSegment
 "Apply To",应用给,module,Magento_CustomerSegment
 "Visitors and Registered Customers",游客和已登记的客户,module,Magento_CustomerSegment
-"Registered Customers",客户加入日期,module,Magento_CustomerSegment
+"Registered Customers",已注册的客户,module,Magento_CustomerSegment
 Visitors,访客,module,Magento_CustomerSegment
 "Please save this information to specify segmentation conditions.",请保存此信息指定分割的条件。,module,Magento_CustomerSegment
 "Matched Customers (%1)","匹配的客户 (%1)",module,Magento_CustomerSegment
@@ -9628,7 +9628,7 @@ Items,产品,module,Magento_Sales
 "Shipped By",运输由,module,Magento_Sales
 "Tracking Number",追踪号码,module,Magento_Sales
 "Billing Last Name",账单的姓,module,Magento_Sales
-"Find Order By",查找订单由,module,Magento_Sales
+"Find Order By",查找订单依据,module,Magento_Sales
 "ZIP Code",邮政编码,module,Magento_Sales
 "Billing ZIP Code",帐单邮政编码,module,Magento_Sales
 Continue,继续,module,Magento_Sales
@@ -9638,7 +9638,7 @@ Continue,继续,module,Magento_Sales
 "Product Name",产品名称,module,Magento_Sales
 "Order #","订单 #",module,Magento_Sales
 Date,日期,module,Magento_Sales
-"Ship To",船到,module,Magento_Sales
+"Ship To",运送到,module,Magento_Sales
 Actions,动作,module,Magento_Sales
 "View Order",查看订单,module,Magento_Sales
 "You have placed no orders.",你还没有订单。,module,Magento_Sales
@@ -12715,8 +12715,8 @@ Back,后退,module,Magento_Wishlist
 "Check here to link an RSS feed to your Wish List.",查看这里，链接RSS提要到你的愿望列表。,module,Magento_Wishlist
 "Last Added Items",最后添加的项,module,Magento_Wishlist
 "Remove This Item",删除该内容,module,Magento_Wishlist
-"Go to Wish List",移动到愿望清单,module,Magento_Wishlist
-"You have no items in your wish list.",你的愿望清单上没有项目。,module,Magento_Wishlist
+"Go to Wish List",查看收藏夹,module,Magento_Wishlist
+"You have no items in your wish list.",收藏夹为空。,module,Magento_Wishlist
 "Take a look at %customer_name's Wish List","看一下% customer_name的愿望清单",module,Magento_Wishlist
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name 想要与你分享从 %store_name 这个愿望清单:",module,Magento_Wishlist
 "Message from %customer_name:","来自 %customer_name 的消息:",module,Magento_Wishlist
@@ -12862,3 +12862,5 @@ Footer,页脚,theme,frontend/Magento/luma
 "Account Dashboard",仪表板帐户,theme,frontend/Magento/luma
 "Address Book",通讯簿,theme,frontend/Magento/luma
 "Account Information",帐户信息,theme,frontend/Magento/luma
+
+"Short Description",简介,module,Magento_CatalogSearch
