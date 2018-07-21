@@ -1984,8 +1984,8 @@ Role,职能,module,Magento_Catalog
 "Special Price",特殊价格,module,Magento_Catalog
 "Regular Price",定期的价格,module,Magento_Catalog
 "Buy %1 for:","买的 %1:",module,Magento_Catalog
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","满 %1 减 %2 , <strong class=""benefit""> 节省<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
-"Buy %1 for %2 each","满 %2个 减 %1",module,Magento_Catalog
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","买%1件以上只需每件 %2 , <strong class=""benefit""> 节省<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
+"Buy %1 for %2 each","买%1件以上只需每件 %2",module,Magento_Catalog
 "Shop By",清除全部,module,Magento_Catalog
 "Shopping Options",购物的选项,module,Magento_Catalog
 "Compare Products",比较产品,module,Magento_Catalog
@@ -3372,7 +3372,7 @@ Cancel,取消,module,Magento_ConfigurableProduct
 "Please select attribute(s).",请选择属性。,module,Magento_ConfigurableProduct
 "Generate Products",生成产品,module,Magento_ConfigurableProduct
 "Something went wrong.",发生一些错误。,module,Magento_ConfigurableProduct
-"Buy %1 for %2 each and",满%2个 减%1,module,Magento_ConfigurableProduct
+"Buy %1 for %2 each and",买%1件以上只需每件 %2,module,Magento_ConfigurableProduct
 save,保存,module,Magento_ConfigurableProduct
 "Configurable Product Image",可配置的产品图像,module,Magento_ConfigurableProduct
 Select...,选择。。。,module,Magento_ConfigurableProduct
