@@ -2,14 +2,7 @@
 目前网上有很多Magento2中文语言包，我尝试过各种版本的中文语言包，大多让人感觉翻译生硬，不够本土化。本语言包基于[Crowdin](https://crowdin.com/)网站上[Magento2官方翻译项目](https://crowdin.com/project/magento-2/zh-CN)生成，并参考第三方中文语言包（[Magento2Translations](https://github.com/Magento2Translations/language_zh_hans_cn), [mageplaza](https://github.com/mageplaza/magento-2-chinese-language-pack)）翻译结果，新增部分词条，完善大量的词条翻译。语言包尚存不足之处，我会持续地更新迭代加以完善，同时希望大家一起贡献代码，体验更好的Magento2中文版。
 
 ### 安装语言包
-**Composer安装**
-```
-cd <magento2 path>
-composer require zouhongzhao/magento2_zh_hans_cn:dev-master
-php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN
-```
 **手动安装**
-
 ```
 - [下载 Magento2 中文包](https://github.com/zouhongzhao/magento2_zh_hans_cn/archive/master.zip)
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
@@ -50,13 +43,21 @@ php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Ha
 ### 卸载语言包
 ```
 cd <magento2 path>
-composer remove zouhongzhao/magento2_zh_hans_cn:dev-master
-```
-或者
-```
-php bin/magento i18n:uninstall zh_Hans_CN
+rm app/i18n/Zouhongzhao/zh_Hans_CN -rf
+php bin/magento cache:clean
 ```
 
+### 更新语言包
+```
+cd <magento2 path>
+cd app/i18n/Zouhongzhao/zh_Hans_CN
+rm zh_Hans_CN.csv
+wget https://raw.githubusercontent.com/zouhongzhao/magento2_zh_hans_cn/master/zh_Hans_CN.csv
+cd <magento2 path>
+php bin/magento i18n:pack -m "merge" <magento2 path>/app/i18n/Zouhongzhao/zh_Hans_CN/zh_Hans_CN.csv -d zh_Hans_CN
+php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN -f
+```
+也就是说下载最新的zh_Hans_CN.csv文件，把旧的替换掉。然后再用`i18n:pack`工具merge合并该语言包文件。最后再deploy下就行了。
 ### 注意事项
 - 官方Magento2.1.3+存在[Bug](https://github.com/magento/magento2/issues/7862)会导致Js翻译出现问题
 - 安装本中文包前请备份Magento2
