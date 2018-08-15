@@ -4503,8 +4503,8 @@ Debug,调试,module,Magento_Cybersource
 "some message",一些消息,module,Magento_Deploy
 "Format for IDE '%1' is not supported","不支持格式为 IDE '%1'",module,Magento_Developer
 "Client side compilation doesn't work in production mode",客户端编译在生产模式下不起作用。,module,Magento_Developer
-"Client side less compilation",放空则允许从任何位置访问。,module,Magento_Developer
-"Server side less compilation",服务器端少编译,module,Magento_Developer
+"Client side less compilation",客户端(浏览器)编译less。,module,Magento_Developer
+"Server side less compilation",服务端编译less,module,Magento_Developer
 "Frontend Development Workflow",前端开发流程,module,Magento_Developer
 "Workflow type",流程类型,module,Magento_Developer
 "Not available in production mode",在产品模式下不可用,module,Magento_Developer
