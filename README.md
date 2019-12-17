@@ -3,10 +3,12 @@
 
 ### 安装语言包
 **手动安装**
-```
+
 - [下载 Magento2 中文包](https://github.com/zouhongzhao/magento2_zh_hans_cn/archive/master.zip)
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
 - 在Magento2根目录执行命令：
+
+```
 php bin/magento i18n:pack -m replace <magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN/zh_Hans_CN.csv -d zh_Hans_CN
 php bin/magento cache:clean && php bin/magento setup:static-content:deploy zh_Hans_CN -f
 ```
