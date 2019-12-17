@@ -2,8 +2,12 @@
 目前网上有很多Magento2中文语言包，我尝试过各种版本的中文语言包，大多让人感觉翻译生硬，不够本土化。本语言包基于[Crowdin](https://crowdin.com/)网站上[Magento2官方翻译项目](https://crowdin.com/project/magento-2/zh-CN)生成，并参考第三方中文语言包（[Magento2Translations](https://github.com/Magento2Translations/language_zh_hans_cn), [mageplaza](https://github.com/mageplaza/magento-2-chinese-language-pack)）翻译结果，新增部分词条，完善大量的词条翻译。语言包尚存不足之处，我会持续地更新迭代加以完善，同时希望大家一起贡献代码，体验更好的Magento2中文版。
 
 ### 安装语言包
-**手动安装**
 
+**手动安装**
+<<<<<<< HEAD
+
+=======
+>>>>>>> f683dc3e71e9c04fea742fd70ed885df19c8b549
 - [下载 Magento2 中文包](https://github.com/zouhongzhao/magento2_zh_hans_cn/archive/master.zip)
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
 - 在Magento2根目录执行命令：
