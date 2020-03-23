@@ -4,10 +4,7 @@
 ### 安装语言包
 
 **手动安装**
-<<<<<<< HEAD
 
-=======
->>>>>>> f683dc3e71e9c04fea742fd70ed885df19c8b549
 - [下载 Magento2 中文包](https://github.com/zouhongzhao/magento2_zh_hans_cn/archive/master.zip)
 - 解压并上传文件到指定目录：\<magento2 path\>/app/i18n/Zouhongzhao/zh_Hans_CN
 - 在Magento2根目录执行命令：

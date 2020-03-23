@@ -8787,8 +8787,8 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Reason: %reason.","Reason: %reason.",module,Magento_NegotiableQuote
 " expires on "," expires on ",module,Magento_NegotiableQuote
 " after which time you can’t order the items in the quote. After the expiration,,module,Magento_NegotiableQuote
-you’ll have to negotiate the price with the seller again."," after which time you can’t order the items in the quote. After the expiration,,module,Magento_NegotiableQuote
-you’ll have to negotiate the price with the seller again.",module,Magento_NegotiableQuote
+you’ll have to negotiate the price with the seller again."," after which time you can’t order the items in the quote. After the expiration,,module,Magento_NegotiableQuote
+you’ll have to negotiate the price with the seller again.",module,Magento_NegotiableQuote
 "%merchant_name,","%merchant_name,",module,Magento_NegotiableQuote
 "%quote_id","%quote_id",module,Magento_NegotiableQuote
 "Dear %merchantName,","Dear %merchantName,",module,Magento_NegotiableQuote
